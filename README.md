@@ -28,3 +28,5 @@ CSS3 com organização modular e fontes personalizadas
 JavaScript puro com manipulação de elementos DOM e controle de tempo
 
 Armazenamento local com localStorage para o recorde
+
+Link da página: https://tainara-m.github.io/Snake-Game/
