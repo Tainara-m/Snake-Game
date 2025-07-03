@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+</head>
+<body>
+    <header>
+        <aside id="side-panel">
+        Como jogar: Use as setas para mover a cobrinha;Coma a comida vermelha para ganhar pontos;Evite bater nas bordas ou em você mesma. <br>
+            Atalho:<b>C</b> para começar | <b>Espaço</b> para pausar | <b>R</b> para reiniciar | <b>M</b> para mutar o som
+    </aside>
+    </header>
+    <main>
+<!--    -->
+    <div id="game-container">
+        <div id="title">
+            <h1>Snake Game</h1>
+            <section id="score-board" aria-label="Painel de Pontuação">
+                <div>Placar: <span id="score">0</span></div>
+                <div>Recorde: <span id="high-score">0</span></div>
+                <div>Fase: <span id="level">1</span></div>
+            </section>
+        </div>
+
+        <section id="game-board"></section>
+        <span id="score"></span>
+        <span id="high-score"></span>
+        <span id="level"></span>
+        <div id="controls">
+        <button id="restart-button-controls">Reiniciar</button>
+        <button id="restart-button-gameover">Reiniciar</button>
+        <button id="start-button">Começar</button>
+        <button id="pause-button">Pausar</button>
+        <button id="reset-button">Reiniciar</button>
+        <button id="delete-high-score-button">Deletar Recorde</button>
+        <div id="sound-indicator"></div>
+        </div>
+        </div>
+        
+        <div id="game-over-screen" style="display:none;">
+            <div>Game Over</div>
+        </div>
+   </div>
+
+</main>
+
+<footer id="footer">
+    Desenvolvido por Tainara – Snake Game
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
